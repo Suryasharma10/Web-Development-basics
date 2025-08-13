@@ -1,0 +1,20 @@
+body{
+    text-align: center;
+}
+.para{
+    color: red;
+    font-size: 30px;
+    background-color: yellow;
+}
+button{
+    cursor: pointer;
+    background-color: green;
+    color: white;
+}
+.class{
+    background-color: black;
+    color: white;
+}
+li{
+    list-style: none;
+}

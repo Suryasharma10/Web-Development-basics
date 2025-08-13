@@ -1,0 +1,17 @@
+button{
+    cursor: pointer;
+}
+div{
+    height: 100px;
+    width: 100px;
+    background-color: dodgerblue;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 15px;
+    color: rgb(15, 6, 6);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    border: 1px dotted black;
+}
