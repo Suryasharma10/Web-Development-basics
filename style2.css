@@ -1,0 +1,34 @@
+ body{
+    background-color: rgb(33, 32, 32);
+}
+.myclass{
+    color: yellow; 
+ }
+#myid{
+    color: blue;
+} 
+#box{
+    background-color: rgb(80, 4, 77); */
+ } 
+ .class{
+    color: gold;
+} 
+  h1,h2,h3{
+    color: violet;
+ } 
+   h1,h2,h3{
+    text-align: center;
+  }
+  h2{
+    text-decoration: line-through;
+  }
+  body{
+    text-align: center;
+  }
+  a{
+    text-decoration: none;
+  }
+   h1{
+    text-align: center;
+    text-decoration: red double underline;
+   }

@@ -1,0 +1,45 @@
+ body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: red;
+ }
+ body:hover{
+    background-color:rgb(9, 115, 43);
+ }
+ body:active{
+    background-color:black ;
+ }
+ div{
+    background-color: rgb(28, 136, 169);
+    height: 200px;
+    width: 200px;
+    transition-property: all;
+    display: inline-block;
+    transition-timing-function:ease-in;
+    transition-delay: 5;
+}
+/*
+@media(max-width:300px){
+    div{
+        background-color: green;
+    }
+}
+@media(min-width:300px) and (max-width:400px){
+    div{
+        background-color: pink;
+    }
+}
+@media(min-width:400px) and (max-width:600px){
+    div{
+        background-color: red;
+    }
+} */
+/* div:hover{
+    background-color: purple;
+    color: white;
+    font-size: large;
+}
+div:active{
+    background-color: pink;
+} */

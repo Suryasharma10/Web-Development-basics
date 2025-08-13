@@ -1,0 +1,63 @@
+body{
+ background-color: aqua;
+ display: flex;
+ justify-content: space-evenly;
+ top: 30px;
+}
+div{
+    height: 200px;
+    width: 200px;
+    background-color: violet;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+   animation-NAME: coloranimate;
+      animation-NAME: textanimate; 
+    animation-timing-function: ease-in; 
+   animation-duration:1s;
+   animation-iteration-count: infinite;
+   transition: all 2s ease-in;
+     border-radius: 50%;
+  font-style: italic;
+  text-align: center;
+  padding: 40px;
+  animation-direction: alternate;
+  animation: coloranimate 2s ease-in 1s 8 alternate;
+}
+div:active{
+    transition-timing-function: ease-in;
+    transition-duration: 2s;
+    transform: rotate(360deg);
+}
+@keyframes coloranimate{
+    0%{
+        background-color: violet;
+        left: 0px;
+        font-size: small;
+        border-radius: 0%;
+        color: black;
+        
+    }
+    50%{
+        background-color: green;
+        left: 300px;
+        font-size: 45PX;
+        border-radius: 50%;
+        color: white;
+    }
+    100%{
+        background-color: rgb(36, 0, 128);
+        left: 600px;
+        font-size: 5PX;
+        border-radius: 10%;
+        color: rgb(76, 4, 6);
+    }
+}
+@keyframes textanimate{
+    from{
+        font-size: 20px;
+    }
+    to{
+        font-size: 60px;
+    }
+}

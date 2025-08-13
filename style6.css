@@ -1,0 +1,26 @@
+.hw{
+    background-color: brown;
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+li{
+    display: inline;
+    list-style-type: none;
+}
+#s2{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+}
+#s3{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(21, 186, 78);
+    align-self: center;
+}
