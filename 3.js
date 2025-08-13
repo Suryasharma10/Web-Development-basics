@@ -1,5 +1,5 @@
 // ____________________loops_____________________________ 
-/*
+
 for(i=1;i<=5;i++){
     console.log("loop",i);
 }
@@ -10,7 +10,7 @@ for(i=1;i<=5;i++){
 console.log(sum);
 console.log("loop has ended");
  sum=0; 
- */
+ 
  //_____________________while loop_______________________________
 /*
 while(i!=10){
@@ -85,4 +85,5 @@ let emojis = [
   ];
   
   console.log(emojis.join(" "));
+
 */
